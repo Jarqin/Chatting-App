@@ -8,7 +8,8 @@
 
     <include
         android:id="@+id/toolbar"
-        layout="@layout/bar_layout"/>
+        layout="@layout/bar_layout"
+        android:background="@android:color/transparent"/>
 
     <LinearLayout
         android:id="@+id/LogoChatApp"
@@ -82,12 +83,12 @@
 
         <Button
             android:id="@+id/btn_register"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="125dp"
+            android:layout_height="38dp"
             android:layout_marginTop="10dp"
-            android:background="@color/colorPrimaryDark"
+            android:background="@android:color/transparent"
             android:text="@string/register"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/black" />
 
     </LinearLayout>
 
