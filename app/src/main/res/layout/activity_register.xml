@@ -33,7 +33,7 @@
             android:layout_marginTop="10dp"
             android:fontFamily="sans-serif-black"
             android:text="ChatAPP"
-            android:textSize="36sp"
+            android:textSize="24sp"
             android:textStyle="bold"
             tools:text="ChatAPP" />
 

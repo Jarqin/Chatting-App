@@ -11,12 +11,40 @@
         layout="@layout/bar_layout"/>
 
     <LinearLayout
+        android:id="@+id/LogoChatApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="0dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/Picture"
+            android:layout_width="207dp"
+            android:layout_height="103dp"
+            app:srcCompat="@drawable/logo_chat_app_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-black"
+            android:text="ChatAPP"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="ChatAPP" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center_horizontal"
         android:padding="16dp"
-        android:layout_below="@+id/toolbar">
+        android:layout_below="@+id/LogoChatApp">
 
         <TextView
             android:layout_width="wrap_content"
