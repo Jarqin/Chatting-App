@@ -5,29 +5,50 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/background"
     android:orientation="vertical"
     tools:context=".StartActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/LogoChatApp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ChatAPP"
-        android:textColor="@android:color/white"
-        android:textSize="25sp"
-        android:textStyle="bold" />
+        android:layout_marginTop="0dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
 
-    <Button
-        android:id="@+id/login"
-        android:layout_width="147dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:text="@string/login" />
+        <ImageView
+            android:id="@+id/Picture"
+            android:layout_width="207dp"
+            android:layout_height="103dp"
+            app:srcCompat="@drawable/logo_chat_app_2" />
 
-    <Button
-        android:id="@+id/register"
-        android:layout_width="147dp"
-        android:layout_height="wrap_content"
-        android:text="@string/register" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-black"
+            android:text="ChatAPP"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="ChatAPP" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:background="@color/colorAccent"
+            android:text="@string/login" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="@string/register" />
+
+    </LinearLayout>
 
 </LinearLayout>
