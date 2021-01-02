@@ -36,6 +36,7 @@
             android:text="@string/chatapp"
             android:textSize="24sp"
             android:textStyle="bold"
+            android:textColor="@color/colorPrimaryLight"
             tools:text="ChatAPP" />
 
     </LinearLayout>
@@ -53,7 +54,8 @@
             android:layout_height="wrap_content"
             android:text="@string/login"
             android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryLight"/>
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:layout_width="match_parent"
@@ -78,7 +80,7 @@
             android:layout_width="137dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:background="@color/colorAccent"
+            android:background="@android:color/transparent"
             android:text="@string/login"
             android:textColor="@android:color/white" />
         
@@ -91,7 +93,7 @@
             android:layout_gravity="end"
             android:textStyle="bold"
             android:id="@+id/forgot_password"
-            android:textColor="@color/colorPrimaryDark"/>
+            android:textColor="@color/colorPrimaryLight"/>
 
     </LinearLayout>
 
